@@ -42,7 +42,7 @@ void PrintList(struct List *L) {
 }
 
 struct Item* GetItem(struct List *L, int id) {
-   int count = 1;
+   int count = 0;
    struct Item *I = L->head;
    while (I != NULL) {
       if (count == id)
